@@ -2,7 +2,16 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 const app = express();
-
+// const dbconnection = require("./db/dbconfig");
+// async function connect() {
+//   try {
+//     await dbconnection.getConnection();
+//     console.log("connected");
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+// connect();
 app.use(cors());
 app.use(express.json());
 
