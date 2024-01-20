@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 const app = express();
-/const dbconnection = require("./db/dbconfig");
+// /const dbconnection = require("./db/dbconfig");
 // async function connect() {
 //   try {
 //     await dbconnection.getConnection();
